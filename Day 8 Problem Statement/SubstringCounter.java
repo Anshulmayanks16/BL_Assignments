@@ -1,4 +1,4 @@
-public class SubstringOccurrences {
+public class SubstringCounter {
 
     public static int countOccurrences(String mainString, String subString) {
         int count = 0;
