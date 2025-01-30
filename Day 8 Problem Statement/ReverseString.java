@@ -3,20 +3,19 @@ import java.util.Scanner;
 public class ReverseString {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
-        // Input string
         System.out.print("Enter a string: ");
         String input = scanner.nextLine();
-        
+        scanner.close();
+
         // Reverse the string manually
-        String reversed = "";
-        for (int i = input.length() - 1; i >= 0; i--) {
-            reversed += input.charAt(i);
+        char[] reversed = new char[input.length()];
+        for (int i = 0; i < input.length(); i++) {
+            reversed[i] = input.charAt(input.length() - 1 - i);
         }
 
-        // Output the reversed string
-        System.out.println("Reversed string: " + reversed);
-        
-        scanner.close();
+        System.out.print("Reversed string: ");
+        for (char c : reversed) {
+            System.out.print(c);
+        }
     }
 }
