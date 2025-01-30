@@ -1,36 +1,36 @@
-import java.util.Scanner;
+public class SubstringOccurrences {
 
-public class SubstringCounter {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        // Input main string
-        System.out.print("Enter the main string: ");
-        String mainString = scanner.nextLine();
-
-        // Input substring to search
-        System.out.print("Enter the substring to count: ");
-        String subString = scanner.nextLine();
-
-        // Count occurrences
-        int count = countOccurrences(mainString, subString);
-
-        // Output result
-        System.out.println("The substring \"" + subString + "\" appears " + count + " times.");
-
-        scanner.close();
-    }
-
-    // Method to count occurrences of a substring
     public static int countOccurrences(String mainString, String subString) {
         int count = 0;
-        int index = 0;
-
-        while ((index = mainString.indexOf(subString, index)) != -1) {
-            count++;
-            index += subString.length(); // Move index forward
+        int mainLength = mainString.length();
+        int subLength = subString.length();
+        
+        // Loop through the main string
+        for (int i = 0; i <= mainLength - subLength; i++) {
+            boolean matchFound = true;
+            
+            // Compare the substring with the main string starting at index i
+            for (int j = 0; j < subLength; j++) {
+                if (mainString.charAt(i + j) != subString.charAt(j)) {
+                    matchFound = false;
+                    break;
+                }
+            }
+            
+            // If a match is found, increment the count
+            if (matchFound) {
+                count++;
+            }
         }
-
+        
         return count;
+    }
+
+    public static void main(String[] args) {
+        String mainString = "This is a test string. This string is a test.";
+        String subString = "is";
+        
+        int occurrences = countOccurrences(mainString, subString);
+        System.out.println("The substring \"" + subString + "\" occurs " + occurrences + " times.");
     }
 }
