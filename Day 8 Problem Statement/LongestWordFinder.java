@@ -1,4 +1,4 @@
-public class LongestWord {
+public class LongestWordFinder {
 
     public static String findLongestWord(String sentence) {
         // Split the sentence into words using space as delimiter
