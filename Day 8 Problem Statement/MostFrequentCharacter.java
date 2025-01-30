@@ -1,40 +1,34 @@
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
-
 public class MostFrequentCharacter {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
 
-        // Input string
-        System.out.print("Enter a string: ");
-        String input = scanner.nextLine();
-
-        // Find the most frequent character
-        char mostFrequent = findMostFrequentCharacter(input);
-
-        // Output result
-        System.out.println("Most Frequent Character: '" + mostFrequent + "'");
-
-        scanner.close();
-    }
-
-    // Method to find the most frequent character
-    public static char findMostFrequentCharacter(String str) {
-        Map<Character, Integer> frequencyMap = new HashMap<>();
+    public static char mostFrequentChar(String input) {
         int maxCount = 0;
-        char mostFrequentChar = str.charAt(0);
+        char mostFrequentChar = ' ';
+        
+        // Loop through all characters in the string
+        for (int i = 0; i < input.length(); i++) {
+            char currentChar = input.charAt(i);
+            int count = 0;
 
-        for (char ch : str.toCharArray()) {
-            frequencyMap.put(ch, frequencyMap.getOrDefault(ch, 0) + 1);
+            // Count occurrences of currentChar in the input string
+            for (int j = 0; j < input.length(); j++) {
+                if (input.charAt(j) == currentChar) {
+                    count++;
+                }
+            }
 
-            // Update most frequent character
-            if (frequencyMap.get(ch) > maxCount) {
-                maxCount = frequencyMap.get(ch);
-                mostFrequentChar = ch;
+            // Update maxCount and mostFrequentChar if the currentChar has higher frequency
+            if (count > maxCount) {
+                maxCount = count;
+                mostFrequentChar = currentChar;
             }
         }
 
         return mostFrequentChar;
+    }
+
+    public static void main(String[] args) {
+        String input = "success";
+        char result = mostFrequentChar(input);
+        System.out.println("Most Frequent Character: '" + result + "'");
     }
 }
