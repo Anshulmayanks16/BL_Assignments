@@ -80,3 +80,9 @@ JAVA Keywords.<br>
 2. static<br>
 3. final<br>
 4. instanceof operator<br>
+
+## 06-02-25 : Assignment-10 -> Branch : feature10
+Object Oriented Design Principles<br>
+1. Class Diagram<br>
+2. Object Diagrams<br>
+3. Sequence Diagrams<br>
