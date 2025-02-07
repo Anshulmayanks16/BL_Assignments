@@ -86,3 +86,14 @@ Object Oriented Design Principles<br>
 1. Class Diagram<br>
 2. Object Diagrams<br>
 3. Sequence Diagrams<br>
+
+## 07-02-25 : Assignment-11 -> Branch : feature11
+Inheritance<br>
+1. Single Level Inheritance<br>
+2. Multilevel Inheritance<br>
+3. Hierarchical Inheritance<br>
+4. Key Features of Inheritance<br>
+5. Method Overriding<br>
+6. Constructor Inheritance in Java<br>
+7. Polymorphism and Inheritance<br>
+8. Access Modifiers and Inheritance<br>
