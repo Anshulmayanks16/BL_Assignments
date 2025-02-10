@@ -97,3 +97,11 @@ Inheritance<br>
 6. Constructor Inheritance in Java<br>
 7. Polymorphism and Inheritance<br>
 8. Access Modifiers and Inheritance<br>
+
+## 10-02-25 : Assignment-12 -> Branch : feature12
+OOPS Concept<br>
+1. Encapsulation<br>
+2. Polymorphism<br>
+3. Abstract Classes<br>
+4. Interfaces<br>
+
