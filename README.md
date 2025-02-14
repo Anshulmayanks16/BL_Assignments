@@ -118,3 +118,9 @@ Data Structure<br>
 3. HashMap<br>
 4. Hashing Function<br>
 
+## 14-02-25 : Assignment-15 -> Branch : feature15
+Sorting Algorithms<br>
+1. Bubble Sort<br>
+2. Insertion Sort<br>
+3. Merge Sort<br>
+4. Quick Sort<br>
