@@ -124,3 +124,13 @@ Sorting Algorithms<br>
 2. Insertion Sort<br>
 3. Merge Sort<br>
 4. Quick Sort<br>
+
+## 15-02-25 : Assignment-16 -> Branch : feature16
+Searching Alorithms<br>
+1. StringBuilder<br>
+2. StringBuffer<br>
+3. FileReader<br>
+4. InputStreamReader<br>
+5. Linear Search<br>
+6. Binary Search<br>
+
