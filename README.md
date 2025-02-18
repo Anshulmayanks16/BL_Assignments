@@ -139,3 +139,16 @@ Asymptotic Notations<br>
 1. General Algorithm Best Practices<br>
 2. Time and space Complexity Optimization<br>
 
+## 18-02-25 : Assignment-18 -> Branch : feature18
+Java Generics<br>
+1. Generic Classes
+2. Generic Methods
+3. Bounded Type Parameters
+4. Wildcards (?)
+5. Unbounded Wildcard (?)
+6. Upper Bounded Wildcard (? extends T)
+7. Lower Bounded Wildcard (? super T)
+8. Type Erasure
+
+
+
