@@ -150,5 +150,12 @@ Java Generics<br>
 7. Lower Bounded Wildcard (? super T)
 8. Type Erasure
 
-
+## 19-02-25 : Assignment-19 -> Branch : feature19
+Collections<br>
+1. List Interface<br>
+2. Set Interface<br>
+3. Queue Interface<br>
+4. Deque Interface<br>
+5. Map Interface<br>
+6. Concurrent Collections<br> 
 
