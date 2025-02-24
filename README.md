@@ -159,7 +159,19 @@ Collections<br>
 5. Map Interface<br>
 6. Concurrent Collections<br> 
 
-## 22-02-25 : Assignment-20 -> Branch : feature20
+## 21-02-25 : Assignment-20 -> Branch : feature20
+Exceptions<br>
+1. Checked Exceptions
+2. Unchecked Exceptions
+3. Errors
+4. try-catch Block
+5. Multiple catch Blocks
+6. finally Block
+7. throw Keyword
+8. throws Keyword
+9. Custom Exceptions
+
+## 22-02-25 : Assignment-21 -> Branch : feature21
 Streams<br>
 1. Sequential Stream<br>
 2. Parallel Stream<br>
@@ -170,5 +182,16 @@ Streams<br>
 7. Reduce (Sum of Elements)<br>
 8. Collecting to a Map<br>
 9. Grouping and Counting<br>
+
+## 23-02-25 : Assignment-22 -> Branch : feature22
+Regex & JUnit<br>
+1. Regex 
+2. MetaCharacter
+3. Quantifier
+4. Java Regex API 
+5. Introduction to JUnit Framework
+6. JUnit Annotations
+7. Assertions
+
 
 
