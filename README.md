@@ -159,3 +159,16 @@ Collections<br>
 5. Map Interface<br>
 6. Concurrent Collections<br> 
 
+## 22-02-25 : Assignment-20 -> Branch : feature20
+Streams<br>
+1. Sequential Stream<br>
+2. Parallel Stream<br>
+3. Intermediate Operations (Lazy)<br>
+4. Terminal Operations (Eager)<br>
+5. iltering & Mapping<br>
+6. Sorting & Limiting<br>
+7. Reduce (Sum of Elements)<br>
+8. Collecting to a Map<br>
+9. Grouping and Counting<br>
+
+
